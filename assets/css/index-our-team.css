@@ -6,15 +6,6 @@
   min-height: 100vh;
 }
 
-.u-section-1 .u-btn-1 {
-  border-style: solid;
-  font-weight: 700;
-  font-family: Esquadro-K7RaD;
-  font-size: 1.25rem;
-  margin: 0 auto 0 0;
-  padding: 0;
-}
-
 .u-section-1 .u-image-1 {
   width: 608px;
   height: 714px;
@@ -23,7 +14,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 180deg;
   --animation-custom_in-scale: 0.3;
-  margin: -1px auto 0;
+  margin: 31px auto 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -38,6 +29,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 766px;
+  }
+
   .u-section-1 .u-image-1 {
     width: 570px;
     height: 735px;
@@ -49,10 +44,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-image-1 {
-    margin-top: 20px;
-  }
-
   .u-section-1 .u-text-1 {
     margin-left: 46px;
     margin-right: 46px;
@@ -61,12 +52,11 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 747px;
+    min-height: 100vh;
   }
 
   .u-section-1 .u-image-1 {
-    height: 653px;
-    margin-top: 62px;
+    height: 570px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -74,26 +64,31 @@
 
   .u-section-1 .u-text-1 {
     font-size: 6rem;
-    margin-top: -106px;
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-top: -105px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 840px;
+  }
+
   .u-section-1 .u-image-1 {
-    height: 414px;
-    margin-top: 301px;
+    height: 478px;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: -300px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 390px;
+    margin-left: -25px;
+    margin-right: -25px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 4.5rem;
-    margin: -627px 1px 60px;
+    margin-top: 153px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 100vh;
@@ -118,7 +113,7 @@
 .u-section-2 .u-image-1 {
   width: 290px;
   height: 290px;
-  background-image: url("images/Saran.png");
+  background-image: url("./images/Saran.png");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -141,7 +136,7 @@
 .u-section-2 .u-image-2 {
   width: 290px;
   height: 290px;
-  background-image: url("images/Sachu.jpg");
+  background-image: url("./images/Sachu.jpg");
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -264,7 +259,7 @@
 .u-section-3 .u-image-1 {
   width: 213px;
   height: 213px;
-  background-image: url("images/Saran.png");
+  background-image: url("./images/Saran.png");
   background-position: 50% 50%;
   margin: -95px auto 0;
 }
@@ -482,7 +477,7 @@
 .u-section-4 .u-image-1 {
   width: 213px;
   height: 213px;
-  background-image: url("images/Sachu.jpg");
+  background-image: url("./images/Sachu.jpg");
   background-position: 50% 50%;
   margin: -95px auto 0;
 }
@@ -677,13 +672,8 @@
     --animation-custom_in-translate_x: -300px;
   }
 }@font-face {
-  font-family: 'Esquadro-K7RaD';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/Esquadro-K7RaD.otf);
-}@font-face {
   font-family: 'Gauge-Heavy';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Gauge-Heavy.otf);
+  src: url(./fonts/Gauge-Heavy.otf);
 }
