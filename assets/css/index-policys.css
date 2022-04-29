@@ -28,7 +28,7 @@
   height: 489px;
   object-position: 0% 50%;
   background-position: 50% 50%;
-  background-image: url("./images/Hori-Bot.jpg");
+  background-image: url("../images/Hori-Bot.jpg");
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -53,12 +53,12 @@
   background-image: none;
   width: 528px;
   min-height: 334px;
-  box-shadow: 10px 10px 40px 0 rgba(128,128,128,1);
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 2px 40px 0px rgba(128,128,128,0.95);
   margin: -316px auto 0 0;
 }
 
@@ -699,6 +699,11 @@
 .u-section-4 .u-shape-1 {
   width: 683px;
   height: 653px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 35px 35px 0 auto;
 }
 
@@ -707,7 +712,12 @@
   height: 469px;
   object-position: 0% 50%;
   background-position: 50% 50%;
-  background-image: url("./images/Hori-Bot.jpg");
+  background-image: url("../images/Hori-Bot.jpg");
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 180deg;
+  --animation-custom_in-scale: 1;
   margin: -586px 102px 0 auto;
 }
 
@@ -896,5 +906,5 @@
   font-family: 'Gauge-Heavy';
   font-style: normal;
   font-weight: 400;
-  src: url(./fonts/Gauge-Heavy.otf);
+  src: url(../fonts/Gauge-Heavy.otf);
 }
